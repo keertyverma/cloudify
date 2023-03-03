@@ -14,15 +14,18 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <button class="btn">Search</button>
-
-    <button class="btn btn--primary">Buy Now</button>
-    <button class="btn btn--secondary">Buy Now</button>
-    <button class="btn btn--accent">Buy Now</button>
-
-    <button class="btn btn--outline">Outline Button</button>
-
-    <button class="btn btn--block btn--accent">Block button</button>
-    <a href="#" class="btn btn--primary btn--block">Anchor button</a>
+    <input type="text" class="input" placeholder="Enter domain name here" />
+    <div class="input-group">
+      <input type="text" class="input" placeholder="Enter domain name here" />
+      <button class="btn btn--accent">Search</button>
+    </div>
+    <div class="input-group">
+      <span class="icon-container">
+        <svg class="icon">
+          <use xlink:href="images/sprite.svg#computer"></use>
+        </svg>
+      </span>
+      <input type="text" class="input" placeholder="Enter domain name here" />
+    </div>
   </body>
 </html>
